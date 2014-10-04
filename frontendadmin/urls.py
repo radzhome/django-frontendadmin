@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, url
 from frontendadmin.views import add, change, delete, success, success_delete
 from django.views.decorators.cache import never_cache
 
